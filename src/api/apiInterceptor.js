@@ -1,4 +1,5 @@
-const BASE_URL = "http://localhost:4200/api/";
+// const BASE_URL = "http://localhost:4200/api/";   
+const BASE_URL = import.meta.env.VITE_BASE_URL; 
 
 export const apiInterceptor = async (url, options = {}) => {
   const token = localStorage.getItem("accessToken");
