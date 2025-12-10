@@ -5,10 +5,10 @@ function Home() {
   return (
     <div className="w-full">
       {/* ---------------- HERO SECTION ---------------- */}
-      <section className="h-screen bg-gradient-to-b from-indigo-50 via-white to-purple-50 flex items-center">
+      <section className="h-screen bg-gradient-to-b from-indigo-50 via-white to-purple-50 flex items-center pt-56 md:pt-0">
         <div className="max-w-7xl mx-auto w-full px-10 flex flex-col md:flex-row items-center justify-between gap-12">
           {/* Left Content */}
-          <div className="flex-1">
+          <div className="flex-1 ">
             <h1 className="text-5xl font-bold text-gray-900 leading-tight">
               Hello, I’m <br />
               <span className="text-indigo-600">
@@ -58,7 +58,7 @@ function Home() {
       </section>
 
       {/* ---------------- HIGHLIGHT CARDS ---------------- */}
-      <section className="py-16 bg-white">
+      <section className="mt-64 md:mt-0 py-16 bg-white">
         <div className="max-w-6xl mx-auto px-10 grid md:grid-cols-3 gap-8">
           <div className="p-6 bg-gray-50 rounded-xl shadow hover:shadow-xl transition text-center">
             <h3 className="text-3xl font-bold text-indigo-600">

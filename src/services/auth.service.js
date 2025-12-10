@@ -8,6 +8,15 @@ class AuthService {
       body: JSON.stringify({ email, password }),
     });
   }
+
+  static async verifytoken() {
+    
+    return apiInterceptor("auth/verifyToken", {
+      method: "GET",
+      
+    })
+  }
+
 }
 
 export default AuthService;
