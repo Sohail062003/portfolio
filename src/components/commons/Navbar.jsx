@@ -1,10 +1,10 @@
 import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
-import { useAuth } from "../../hooks/useAuth";
+// import { useAuth } from "../../hooks/useAuth";
 
 function Navbar() {
   // const token = localStorage.getItem("accessToken");
-  const token = useAuth();
+  // const token = useAuth();
   const [open, setOpen] = useState(false);
 
   const navLinks = [
@@ -116,7 +116,7 @@ function Navbar() {
             </NavLink>
           ))}
 
-          {token ? (
+          {/* {token ? (
             <NavLink
               to="/admin"
               onClick={() => setOpen(false)}
@@ -132,7 +132,7 @@ function Navbar() {
             >
               Login
             </NavLink>
-          )}
+          )} */}
         </ul>
       </div>
     </>
