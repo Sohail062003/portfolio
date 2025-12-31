@@ -10,12 +10,11 @@ function Home() {
           {/* Left Content */}
           <div className="flex-1 ">
             <h1 className="text-5xl font-bold text-gray-900 leading-tight">
-              Hello, I’m <br />
+              Hello, I’m Sohail Shaikh.<br />
               <span className="text-indigo-600">
                 <TextType
                   text={[
-                    "Sohail Shaikh.",
-                    "A MERN Stack Developer.",
+                    "A Full Stack Developer.",
                     "A Tech Enthusiast.",
                   ]}
                   typingSpeed={190}
